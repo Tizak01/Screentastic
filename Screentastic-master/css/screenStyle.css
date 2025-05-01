@@ -1,0 +1,139 @@
+body { font-family: 'CourierPrime'; background: #AAA; }
+
+#page {
+	background: #FFF;
+	height: 972px;
+	width: 672px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 72px;
+	z-index: 5;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pageCenter {
+	width: 100%;
+	}
+
+#passageConstruction {
+	position: absolute;
+	margin: auto;
+	display: none;
+	z-index: 1;
+}
+
+#schCont {
+	/*character length: 62*/
+	position: relative;
+	display: block;
+	margin-left: 25px;
+	width: 635px;
+	text-transform: uppercase;
+	margin-top: 20px;
+
+}
+
+#traCont {
+	/*character length: 62*/
+	position: relative;
+	display: block;
+	margin-left: 25px;
+	width: 635px;
+	text-transform: uppercase;
+	text-align: right;
+	margin-top: 20px;
+
+}
+
+#actCont {
+	/*character length: 62*/
+	position: relative;
+	display: block;
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+
+}
+
+#diaCont {
+	/*character length: 34*/
+	position: relative;
+	display: block;
+	margin-left: 150px;	
+	margin-top: -20px;
+
+}
+
+#chaCont {
+	/*character length: 26*/
+	position: relative;
+	display: block;
+	margin-left: 250px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+#parCont {
+	/*character length: 26*/
+	position: relative;
+	display: block;
+	margin-left: 188px;
+
+}
+
+#linkCont {
+	position: relative;
+	display: block;
+	margin-left: 69px;
+	margin-top: 20px;
+
+}
+#more {
+	position: relative;
+	display: block;
+	margin-left: 300px;
+
+}
+
+ul {
+	word-wrap: break-word;
+}
+
+#pageNumberCont {
+/*Future Feature: Page numbers that reflect what'll be seen on the PDF.*/
+}
+
+/*The things below this line are for funsies and are not actually important to making things industry standard*/
+
+#holePunch {
+	font-family: 'Screentastic_Icons';
+	font-size: 125%;
+	color: #333;
+	position: absolute;
+	height: 1122px;
+	margin-top: -75px;
+	margin-left: -75px;
+	width: 100px;
+	z-index: 6;
+	text-align: center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.tophole {
+	margin-top: 75px;
+}
+.midhole {
+	margin-top: 400px;
+}
+.bothole {
+	margin-top: 400px;
+}
